@@ -33,7 +33,7 @@ class UserController extends Controller{
         $user->nama = request('nama');
         $user->username = request('username');
         $user->email = request('email');
-        if(request('password')) $user->password = bcrypt (request('password'));
+        if(request('password')) $user->password = bcrypt(request('password'));
         $user->save();
 
         return redirect('admin/user')->with('success', 'Data berhasil diedit');

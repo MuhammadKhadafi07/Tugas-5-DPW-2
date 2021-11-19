@@ -1,5 +1,5 @@
 @extends('adsection.base')
 
 @section('content')
-    <h1>Ini adalah halaman beranda</h1>
+    <h1>Ini adalah halaman beranda admin</h1>
 @endsection
